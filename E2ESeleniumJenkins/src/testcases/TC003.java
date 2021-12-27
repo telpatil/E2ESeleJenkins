@@ -1,12 +1,11 @@
 package testcases;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 //bare minimum program, as the focus is on e2e linking till Jenkins.
-
-import org.testng.annotations.*;
 
 public class TC003 {
 	
