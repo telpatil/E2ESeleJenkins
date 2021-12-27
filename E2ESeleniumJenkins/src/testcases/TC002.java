@@ -15,7 +15,7 @@ public class TC002 {
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Search this");
+		driver.findElement(By.name("q")).sendKeys("Search that");
 		driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
 		driver.quit();
 	}
